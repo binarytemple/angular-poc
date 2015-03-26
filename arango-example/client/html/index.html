@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+<head>
+  <script src="lib/angular.min.js"></script> 
+  <script src="app.js"></script>
+  <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+</head>
+<body ng-controller="MainCtrl"> 
+<p>Hello {{name}}!</p>
+<p>The year is {{year}}...</p>
+    <script>
+      d3.select('body')
+        .append('h1')
+        .text('Hello World!');
+    </script>
+</body> 
+</html>

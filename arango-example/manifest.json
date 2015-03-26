@@ -1,0 +1,21 @@
+{
+  "name": "heroapp",
+  "version": "0.0.1",
+  "author": "Michael Hackstein, Julian Steiner, Andreas Streichardt",
+  "description": "This is the App created during the angular.js and foxx workshop.",
+  "license": "Apache 2",
+
+   "controllers": {
+     "/": "controllers/heroapp.js"
+   },
+
+   "setup": "scripts/setup.js",
+
+   "files": {
+     "index.html": "client/html/index.html",
+     "lib": "client/js/lib",
+     "app.js": "client/js/app.js",
+     "style.css": "client/css/style.css"
+   }
+
+}
